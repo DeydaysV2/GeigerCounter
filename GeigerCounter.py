@@ -7,7 +7,7 @@ class GeigerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Geiger")
-        
+        # DeydaysV2 was here!
         # Set the data file path to be in the same directory as the script
         self.data_file = os.path.join(os.path.dirname(__file__), 'data.json')
         self.items = self.load_data()
